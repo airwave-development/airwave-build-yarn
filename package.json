@@ -1,6 +1,9 @@
 {
   "name": "airwave-build-yarn",
   "version": "1.0.0",
+  "engines": {
+    "atom": "1.x.x"
+  },
   "description": "yarn build module for atom build",
   "main": "./lib/atom-build-yarn",
   "directories": {
