@@ -1,43 +1,42 @@
 {
-  "name": "airwave-build-yarn",
-  "version": "1.7.0",
-  "engines": {
-    "atom": "^1.0.0"
-  },
-  "providedServices": {
-    "builder": {
-      "description": "Runs Yarn targets",
-      "versions": {
-        "2.0.0": "provideBuilder"
-      }
-    }
-  },
-  "description": "yarn build module for atom build",
-  "main": "./lib/atom-build-yarn",
-  "directories": {
-    "lib": "lib"
-  },
-  "dependencies": {
-  },
-  "devDependencies": {
-    "atom-build-spec-helpers": "^0.4.0",
-    "fs-extra": "^4.0.1",
-    "temp": "^0.8.3"
-  }
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/airwave-development/airwave-build-yarn.git"
-  },
-  "keywords": [
-    "yarn",
-    "build",
-    "atom-build",
-    "environment"
-  ],
-  "author": "Airwave",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/airwave-development/airwave-build-yarn/issues"
-  },
-  "homepage": "https://github.com/airwave-development/airwave-build-yarn#readme"
+    "name": "airwave-build-yarn",
+    "version": "1.7.0",
+    "engines": {
+        "atom": "^1.0.0"
+    },
+    "providedServices": {
+        "builder": {
+            "description": "Runs Yarn targets",
+            "versions": {
+                "2.0.0": "provideBuilder"
+            }
+        }
+    },
+    "description": "yarn build module for atom build",
+    "main": "./lib/atom-build-yarn",
+    "directories": {
+        "lib": "lib"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "atom-build-spec-helpers": "^0.4.0",
+        "fs-extra": "^4.0.1",
+        "temp": "^0.8.3"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/airwave-development/airwave-build-yarn.git"
+    },
+    "keywords": [
+        "yarn",
+        "build",
+        "atom-build",
+        "environment"
+    ],
+    "author": "Airwave",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/airwave-development/airwave-build-yarn/issues"
+    },
+    "homepage": "https://github.com/airwave-development/airwave-build-yarn#readme"
 }
