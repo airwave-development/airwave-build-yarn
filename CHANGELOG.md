@@ -1,3 +1,2 @@
-## 0.1.0 - First Release
-* Every feature added
-* Every bug fixed
+## 1.7.0
+* Bug fixed regarding running yarn install always running in production mode
